@@ -13,6 +13,8 @@ if (config.error) {
   throw config.error
 }
 
+//call env variables
+
 const port = process.env.PORT // || 3001
 const dbName = process.env.dbName // || assgn3notes
 
